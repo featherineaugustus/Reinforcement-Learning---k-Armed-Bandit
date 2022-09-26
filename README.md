@@ -2,6 +2,12 @@
 
 We illustrate Q-learning via the multi-armed bandit or the k-armed bandit problem.
 
+- Agent: Robot
+- Environment: Slot Machines
+- State: Mean Reward so far
+- Action: Choose a Slot Machine
+- Reward: Depends on slot machine, but there is one that give the highest reward
+
 Here, we illustrate the effects of:
 - $\epsilon$, which is the probability of exploring (in constrast to exploiting)
 - Decay, which reduces the probability of exploring over time
